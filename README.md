@@ -3,9 +3,9 @@ repository of examples and material for a3 course 2020-21.  This repo will be fi
 
 To download the files, click on the green **Code** button above and **Download Zip**  
   
-## / / / @ base material
+## / @ base material
 Folder containing a starter kit including files, tools, plugins, extensions.  
-### Rhino
+### / Rhino
 Material for Rhinoceros 3D v6  
   
 **_Display Modes.zip_** - Zip file containing several custom display modes for Rhino  
@@ -13,19 +13,19 @@ Material for Rhinoceros 3D v6
 **_3Dpeople_20190923.3dm_** - 3D people in Mesh format, at 3 different resolutions, for proportions and reference in 3D models.  
   
 **_spatial proportions_20190923.3dm_** - table of reference proportions for body/space relations. The table is merely a suggestion, by no means a strict referece to adhere to.  
-### Rhino/Plugins
+### Rhino / Plugins
 Folder containing useful Rhino plugins.  
 
-#### **AutoLabelPoints**
+#### Rhino / Plugins / AutoLabelPoints
 **_AutoLabelPoints.rhi_** - installer for the plugin
-
+  
 ##### AutoLabelPoints/src
 Python source code
 
-#### **OrientPlugin**
+#### Rhino / Plugins / OrientPlugin
 **_OrientPlugin.rhi_** - installer for the plugin  
 **_OrientPlugin.pdf_** - instructions  
 **_OrientPlugin Example file.3dm_** - example file  
-
+  
 ##### OrientPlugin/src
 Python source code  
