@@ -16,13 +16,13 @@ Material for Rhinoceros 3D v6
 ### Rhino/Plugins
 Folder containing useful Rhino plugins.  
 
-#### _AutoLabelPoints_
+#### **AutoLabelPoints**
 **_AutoLabelPoints.rhi_** - installer for the plugin
 
 ##### AutoLabelPoints/src
 Python source code
 
-#### _OrientPlugin_
+#### **OrientPlugin**
 **_OrientPlugin.rhi_** - installer for the plugin  
 **_OrientPlugin.pdf_** - instructions  
 **_OrientPlugin Example file.3dm_** - example file  
