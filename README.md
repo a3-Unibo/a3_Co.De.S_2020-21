@@ -23,9 +23,9 @@ Folder containing useful Rhino plugins.
 Python source code
 
 #### _OrientPlugin_
-**_OrientPlugin.rhi_** - installer for the plugin
-**_OrientPlugin.pdf_** - instructions
-**_OrientPlugin Example file.3dm_** - example file
+**_OrientPlugin.rhi_** - installer for the plugin  
+**_OrientPlugin.pdf_** - instructions  
+**_OrientPlugin Example file.3dm_** - example file  
 
 ##### OrientPlugin/src
-Python source code
+Python source code  
