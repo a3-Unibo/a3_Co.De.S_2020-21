@@ -4,7 +4,7 @@ import Rhino
 from Rhino.Commands import *
 from scriptcontext import doc
 
-__commandname__ = "OrientHandle"
+__commandname__ = "ConnectHandle"
 
 def ptsFromPolyline(poly=None):
     if poly==None: return
@@ -63,7 +63,7 @@ def RhinoUpdateObjectGroups(obj, group_map):
 # The command name is defined by the filname minus "_cmd.py"
 def RunCommand( is_interactive ):
     # get input objects
-    objs = rs.GetObjects("Select object(s) to orient")
+    objs = rs.GetObjects("Select object(s) to connect")
     if (objs is None):
         return 1
     # select source handle
@@ -92,19 +92,18 @@ def RunCommand( is_interactive ):
         sPlane = planeFromPts(sPts)
         rPlane = planeFromPts(rPts)
         origin = rPts[0]
-        #rPts = rs.RotateObjects(rPts, origin,180,rPlane.YAxis)
-        rPts1 = rs.RotateObjects(rPts, origin,rotation,rPlane.ZAxis)
+        rPts = rs.RotateObjects(rPts, origin,180,rPlane.YAxis)
+        rPts1 = rs.RotateObjects(rPts, origin,-rotation,rPlane.ZAxis)
         for obj in objs:
             preview.append(rs.OrientObject(obj,sPts,rPts1,1))
 
         rs.DeleteObjects(rPts1)
         rs.EnableRedraw(True)
         result = rs.GetString("Looks good?", "Yes", ("Yes", "No"))
-        if not result or result is None:
+        if not result:
             rs.EnableRedraw(False)
             for obj in preview: rs.DeleteObject(obj)
             rs.EnableRedraw(True)
-            return 1
         result = result.upper()
         if result=="YES":
             group_map = []
