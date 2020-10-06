@@ -84,6 +84,7 @@ def RunCommand( is_interactive ):
     while True:
         # input rotation angle
         rotation = rs.GetReal("Rotation angle (degrees)",0,-360,360)
+        if rotation is None: break
         rs.EnableRedraw(False)
         
         # precalculate points, planes and transformation
@@ -100,10 +101,11 @@ def RunCommand( is_interactive ):
         rs.DeleteObjects(rPts1)
         rs.EnableRedraw(True)
         result = rs.GetString("Looks good?", "Yes", ("Yes", "No"))
-        if not result:
+        if result is None:
             rs.EnableRedraw(False)
             for obj in preview: rs.DeleteObject(obj)
             rs.EnableRedraw(True)
+            break
         result = result.upper()
         if result=="YES":
             group_map = []
@@ -125,4 +127,4 @@ def RunCommand( is_interactive ):
     return 0
 
 
-#RunCommand(True)
+RunCommand(True)
