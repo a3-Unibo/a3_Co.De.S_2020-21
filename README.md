@@ -33,4 +33,7 @@ Python source code
 ### / Grasshopper
 Material for Grasshopper 
   
-**_GH package.zip_** - plugins for Grasshopper
+**_GH package.zip_** - plugins for Grasshopper  
+  
+## / lecture material
+Example files organized by lecture days.  
