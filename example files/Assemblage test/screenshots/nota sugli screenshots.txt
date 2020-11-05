@@ -1,0 +1,28 @@
+Ho fatto questi screenshots rapidi per dare un minimo senso di scala al risultato.
+
+Potete anche analizzare il file di Rhino allegato.
+
+L'esercizio fatto e queste schermate dimostrano alcuni importanti aspetti degli strumenti computazionali/algoritmici applicati al progetto - e loro sostanziali differenze rispetto al modo convenzionale di concepire il progetto (nel quale - in estrema semplificazione - lo strumento segue l'idea):
+
+. non sarebbe stato possibile (o per lo meno sarebbe stato molto, molto più difficile) concepire o arrivare ad avere alcuni dei patterns e condizioni che il risultato presenta ragionando solo manualmente su combinazioni di pochi elementi - o guardando la matrice di combinazioni e cercando di ragionare per pura deduzione a partire da essa;
+
+. non c'è alcuna forma di preconcezione - il risultato non è immaginato a priori. Per sfruttare appieno le potenzialità di questi sistemi occorre ridefinire il ruolo dell'intuizione: non più orientata alla preconcezione di un esito finale, ma alla proiezione di possibili relazioni tra scelte in input (design dei componenti - sia in termini di geometrie che di connettività, design dei fields e degli environments, sequenza di operazioni). In sintesi: si progetta il processo > si esegue > si valuta attraverso i risultati come modificare il processo > ripetere ad libitum.
+
+. complessità e varietà non sono il frutto del caso ma di decisioni distribuite: il risultato è puramente deterministico (la variazione non è data da alcuna caratteristica di casualità), ma non meccanico: è eterogeneo ed ha caratteristiche di emergenza (in quanto risultato di una serie di decisioni granulari effettuate localmente e non-linearmente);
+
+. la stretta coerenza interna del sistema è una caratteristica con opportunità e vincoli: 
+	. il controllo sul sistema è possibile solo entro una certa misura - non si può forzare il sistema a fare qualcosa che violi le sue logiche operative - e questo non è necessariamente un problema;
+	. ma in questo sta anche il suo punto di forza: si può delegare il controllo facendo proprio leva sulla sua affidabilità;
+
+. il filtraggio delle regole è più produttivo se fatto in modo esplorativo (regole > simulazione > valutazione risultato e non regole > valutazione risultato > simulazione), e non sempre conviene fare questo filtraggio a priori - come questo caso dimostra, una combinazione studiata di vincoli e informazioni distribuite può produrre risultati anche più interessanti;
+
+
+Alcune note più specifiche sulla valutazione dei risultati:
+
+. il field vettoriale era volutamente impostato in modo banale per dimostrarne gli effetti sul sistema, ma il risultato mostra anche che un setup apparentemente banale può avere già conseguenze interessanti (e non lineari - il field è banale, il sistema che ne scaturisce non lo è) sul sistema > consiglio: partite da condizioni semplici, anche banali, per capire che effetti queste hanno sul vostro sistema;
+
+. la sezione 00 evidenzia un pattern spaziale interessante (molto spinto in una direzione, ma senza creare gallerie chiuse - ci sono interruzioni, doppi e tripli volumi, connessioni trasversali, etc.). Vedi anche la sezione 01.
+
+. nonostante la prevalente direzione orizzontale, si nota l'emersione di "tagli" in diagonale (potenziali "strade" interne) e una insospettata verticalità degli spazi multilivello (vedi screenshot 05)
+
+. nelle parti verticali, il design del componente invece non aiuta la distribuzione interna, creando solo cavedi senza spazi utilizzabili > lo step successivo potrebbe dunque essere modellare un blocco alternativo da inserire solo quando il componente finisce orientato verticalmente nell'assemblaggio, in modo da favorire di più le connessioni e la generazione di spazi utilizzabili

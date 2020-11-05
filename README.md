@@ -35,5 +35,13 @@ Material for Grasshopper
   
 **_GH package.zip_** - plugins for Grasshopper  
   
-## / lecture material
-Example files organized by lecture days.  
+## / example files
+Example files.
+  
+### / Assemblage test
+An assemblage test done using blocks. Rhino file, screenshots and text with some considerations.  
+  
+### / Assembler example files
+Example files for the Assembler plug-in. These files will be updated and integrated with further examples as the course proceeds.  
+  
+**_Collision mesh GOOD vs BAD.3dm_** - file with notes on how to design a good collision mesh for Assembler.  
