@@ -1,3 +1,4 @@
+![cover image](https://raw.githubusercontent.com/a3-Unibo/a3_Co.De.S_2020-21/master/example%20files/Assemblage%20test/screenshots/screenshot_gen1.jpg)
 # a3_Co.De.S_2020-21
 repository of examples and material for a3 course 2020-21.  This repo will be filled in time with examples and files.
 
