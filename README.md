@@ -34,7 +34,9 @@ Python source code
 ### / Grasshopper
 Material for Grasshopper 
   
-**_GH package.zip_** - plugins for Grasshopper  
+**_Assembler.zip_** - Assembler plugin for Grasshopper - copy the **_Libraries_** folder content to the Grasshopper Libraries folder  - _last update: 11.11.2020_  
+**_froGH.zip_** - froGH plugin for Grasshopper - copy the **_Libraries_** and **_User Object_** folder contents to the respective Grasshopper folders - _last update 04.11.2020_
+**_Other plugins.zip_** - Other plugins for Grasshopper - copy the **_Libraries_** folder content to the Grasshopper Libraries folder - _last update 14.10.2020_
   
 ## / example files
 Example files.
