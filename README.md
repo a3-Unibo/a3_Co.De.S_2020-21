@@ -4,6 +4,8 @@ repository of examples and material for a3 course 2020-21.  This repo will be fi
 
 To download the files, click on the green **Code** button above and **Download Zip**  
   
+___
+
 ## / @ base material
 Folder containing a starter kit including files, tools, plugins, extensions.  
 ### / Rhino
@@ -35,9 +37,11 @@ Python source code
 Material for Grasshopper 
   
 **_Assembler.zip_** - Assembler plugin for Grasshopper - copy the **_Libraries_** folder content to the Grasshopper Libraries folder  - **_last update: 13.12.2020_**  
-**_froGH_** - [does not live here anymore](https://memegenerator.net/img/instances/85103177.jpg)! Get it from [its own repo](https://github.com/Co-de-iT/froGH); here is the [latest release](https://github.com/Co-de-iT/froGH/releases/tag/v2.0-beta), including installation instructions - _last update 16.11.2020_
+**_froGH_** - [does not live here anymore](https://memegenerator.net/img/instances/85103177.jpg)! Get it from [its own repo](https://github.com/Co-de-iT/froGH); here is the [latest release](https://github.com/Co-de-iT/froGH/releases/tag/v2.0-beta), including installation instructions;  
 **_Other plugins.zip_** - Other plugins for Grasshopper - copy the **_Libraries_** folder content to the Grasshopper Libraries folder - _last update 14.10.2020_
   
+___
+
 ## / example files
 Example files.
   
@@ -45,6 +49,7 @@ Example files.
 An assemblage test done using blocks. Rhino file, screenshots and text with some considerations.  
   
 ### / Assembler example files
-Example files for the Assembler plug-in. These files will be updated and integrated with further examples as the course proceeds.  
+Example files for the Assembler plug-in. These files will be updated and integrated with further examples as the course proceeds. - **_last update: 13.12.2020_**  
   
-**_Collision mesh GOOD vs BAD.3dm_** - file with notes on how to design a good collision mesh for Assembler.  
+**XX_Collision mesh GOOD vs BAD.3dm_** - file with notes on how to design a good collision mesh for Assembler.  
+**XX_comparison table.3dm_** - a comparison table of different choice criteria in Assembler.  
